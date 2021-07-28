@@ -11,6 +11,7 @@ setup(
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='1.3.2',
     description="""CPChain ABI Utils""",
+    long_description_content_type="text/markdown",
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
     author_email='pipermerriam@gmail.com',
