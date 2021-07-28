@@ -583,12 +583,15 @@ class StringDecoder(SingleDecoder):
         data = stream.read(padded_length)
 
         if len(data) < padded_length:
-            raise InsufficientDataBytes(
-                "Tried to read {0} bytes.  Only got {1} bytes".format(
-                    padded_length,
-                    len(data),
-                )
-            )
+            # 兼容 CPChain 主网，注释此异常抛出
+            # CPChain 主网发射的事件在这里有不兼容的地方，好像是没有进行 padding……
+            # raise InsufficientDataBytes(
+            #     "Tried to read {0} bytes.  Only got {1} bytes".format(
+            #         padded_length,
+            #         len(data),
+            #     )
+            # )
+            return data
 
         padding_bytes = data[data_length:]
 

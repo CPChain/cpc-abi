@@ -27,7 +27,7 @@ lint:
 	tox -e lint
 
 test:
-	py.test tests
+	python -m pytest tests
 
 test-all:
 	tox
@@ -54,3 +54,4 @@ release: clean
 sdist: clean
 	python setup.py sdist bdist_wheel
 	ls -l dist
+	python -m twine check dist/*
