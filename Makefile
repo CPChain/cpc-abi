@@ -45,10 +45,10 @@ linux-docs: build-docs
 
 release: clean
 	# git config commit.gpgSign true
-	# bumpversion --allow-dirty $(bump)
-	# git push && git push --tags
+	bumpversion --allow-dirty $(bump)
+	git push && git push --tags
 	python setup.py sdist bdist_wheel
-	twine upload dist/*
+	python -m twine upload --repository pypi dist/*
 	# git config commit.gpgSign "$(CURRENT_SIGN_SETTING)"
 
 sdist: clean
