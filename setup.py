@@ -9,7 +9,7 @@ from setuptools import (
 setup(
     name='cpc-abi',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='1.3.0',
+    version='1.3.1',
     description="""CPChain ABI Utils""",
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
