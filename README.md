@@ -11,7 +11,7 @@ Python utilities for working with the Ethereum ABI
 ## Installation
 
 ```sh
-pip install eth-abi
+pip install cpc-abi
 ```
 
 
