@@ -1,6 +1,6 @@
 import pytest
 
-from eth_abi.decoding import ContextFramesBytesIO
+from cpc_abi.decoding import ContextFramesBytesIO
 
 
 @pytest.fixture

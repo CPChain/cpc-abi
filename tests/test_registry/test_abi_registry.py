@@ -1,12 +1,12 @@
 import pytest
 
-from eth_abi import (
+from cpc_abi import (
     decoding,
     encoding,
     exceptions,
 )
 
-from eth_abi.registry import (
+from cpc_abi.registry import (
     ABIRegistry,
     BaseEquals,
     has_arrlist,

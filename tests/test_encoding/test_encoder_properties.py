@@ -25,12 +25,12 @@ from eth_utils import (
     decode_hex,
 )
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     EncodingTypeError,
     IllegalValue,
     ValueOutOfBounds,
 )
-from eth_abi.encoding import (
+from cpc_abi.encoding import (
     BooleanEncoder,
     UnsignedIntegerEncoder,
     SignedIntegerEncoder,
@@ -46,7 +46,7 @@ from eth_abi.encoding import (
     TupleEncoder,
 )
 
-from eth_abi.utils.numeric import (
+from cpc_abi.utils.numeric import (
     TEN,
     abi_decimal_context,
     compute_unsigned_integer_bounds,
@@ -57,7 +57,7 @@ from eth_abi.utils.numeric import (
     compute_signed_real_bounds,
     ceil32,
 )
-from eth_abi.utils.padding import (
+from cpc_abi.utils.padding import (
     fpad,
     zpad,
     zpad_right,

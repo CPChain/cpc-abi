@@ -1,6 +1,6 @@
 import pytest
 
-from eth_abi.abi import encode_single
+from cpc_abi.abi import encode_single
 
 from ..common.unit import CORRECT_SINGLE_ENCODINGS
 

@@ -15,19 +15,19 @@ from eth_utils import (
     to_canonical_address,
 )
 
-from eth_abi.base import (
+from cpc_abi.base import (
     BaseCoder,
     parse_type_str,
     parse_tuple_type_str,
 )
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     EncodingTypeError,
     IllegalValue,
     ValueOutOfBounds,
 )
 
-from eth_abi.utils.numeric import (
+from cpc_abi.utils.numeric import (
     TEN,
     abi_decimal_context,
     compute_signed_integer_bounds,
@@ -38,7 +38,7 @@ from eth_abi.utils.numeric import (
     compute_unsigned_real_bounds,
     ceil32,
 )
-from eth_abi.utils.padding import (
+from cpc_abi.utils.padding import (
     fpad,
     zpad,
     zpad_right,

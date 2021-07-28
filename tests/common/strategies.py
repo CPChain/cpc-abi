@@ -1,7 +1,7 @@
 import decimal
 import random
 
-from eth_abi.utils.numeric import abi_decimal_context
+from cpc_abi.utils.numeric import abi_decimal_context
 
 from eth_utils import (
     encode_hex,

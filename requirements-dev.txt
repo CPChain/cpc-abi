@@ -6,5 +6,6 @@ tox>=2.4.1
 hypothesis>=3.6.1
 eth-hash[pycryptodome]>=0.1.0,<1.0.0
 bumpversion>=0.5.3,<1
+parsimonious==0.8.1
 wheel
 twine

@@ -8,18 +8,18 @@ from eth_utils import (
     to_normalized_address,
 )
 
-from eth_abi.base import (
+from cpc_abi.base import (
     BaseCoder,
     parse_type_str,
     parse_tuple_type_str,
 )
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     InsufficientDataBytes,
     NonEmptyPaddingBytes,
 )
 
-from eth_abi.utils.numeric import (
+from cpc_abi.utils.numeric import (
     TEN,
     abi_decimal_context,
     ceil32,

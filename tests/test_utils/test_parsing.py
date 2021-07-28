@@ -1,8 +1,8 @@
 import pytest
 
-from eth_abi.exceptions import ParseError
+from cpc_abi.exceptions import ParseError
 
-from eth_abi.utils.parsing import (
+from cpc_abi.utils.parsing import (
     collapse_type,
     process_type,
 )

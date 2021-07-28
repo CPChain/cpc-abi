@@ -3,7 +3,7 @@ from hypothesis import (
     settings,
 )
 
-from eth_abi import (
+from cpc_abi import (
     encode_abi,
     decode_abi,
     encode_single,

@@ -2,7 +2,7 @@ from decimal import Decimal
 
 from eth_utils import decode_hex
 
-from eth_abi.utils.padding import (
+from cpc_abi.utils.padding import (
     zpad32,
     zpad32_right,
     fpad32,

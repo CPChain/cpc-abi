@@ -1,6 +1,6 @@
 import pkg_resources
 
-from eth_abi.abi import (  # NOQA
+from cpc_abi.abi import (  # NOQA
     decode_single,
     decode_abi,
     encode_single,
@@ -9,4 +9,4 @@ from eth_abi.abi import (  # NOQA
 )
 
 
-__version__ = pkg_resources.get_distribution('eth-abi').version
+__version__ = pkg_resources.get_distribution('cpc-abi').version

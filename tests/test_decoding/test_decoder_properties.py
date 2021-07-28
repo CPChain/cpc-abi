@@ -18,11 +18,11 @@ from hypothesis import (
 )
 import pytest
 
-from eth_abi.constants import (
+from cpc_abi.constants import (
     TT256M1,
 )
 
-from eth_abi.decoding import (
+from cpc_abi.decoding import (
     ContextFramesBytesIO,
     UnsignedIntegerDecoder,
     SignedIntegerDecoder,
@@ -38,17 +38,17 @@ from eth_abi.decoding import (
     DynamicArrayDecoder,
 )
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     InsufficientDataBytes,
     NonEmptyPaddingBytes,
 )
 
-from eth_abi.registry import registry
+from cpc_abi.registry import registry
 
-from eth_abi.utils.padding import (
+from cpc_abi.utils.padding import (
     zpad32,
 )
-from eth_abi.utils.numeric import (
+from cpc_abi.utils.numeric import (
     abi_decimal_context,
     compute_signed_integer_bounds,
     quantize_value,

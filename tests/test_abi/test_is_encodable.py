@@ -8,7 +8,7 @@ import pytest
 
 from eth_utils import decode_hex
 
-from eth_abi import is_encodable
+from cpc_abi import is_encodable
 
 from tests.common.strategies import (
     single_strs_values,

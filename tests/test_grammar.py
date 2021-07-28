@@ -6,12 +6,12 @@ from hypothesis import (
     strategies as st,
 )
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     ABITypeError,
     ParseError,
 )
 
-from eth_abi.grammar import (
+from cpc_abi.grammar import (
     BasicType,
     TYPE_ALIASES,
     TupleType,

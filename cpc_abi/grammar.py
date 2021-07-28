@@ -4,7 +4,7 @@ import re
 from parsimonious import expressions
 import parsimonious
 
-from eth_abi.exceptions import (
+from cpc_abi.exceptions import (
     ABITypeError,
     ParseError,
 )

@@ -1,10 +1,10 @@
 import pytest
 
-from eth_abi.abi import decode_abi
+from cpc_abi.abi import decode_abi
 
-from eth_abi.exceptions import DecodingError
+from cpc_abi.exceptions import DecodingError
 
-from eth_abi.grammar import parse
+from cpc_abi.grammar import parse
 
 from ..common.unit import CORRECT_TUPLE_ENCODINGS
 

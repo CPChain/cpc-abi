@@ -1,8 +1,8 @@
 import pytest
 
-from eth_abi import encode_abi
+from cpc_abi import encode_abi
 
-from eth_abi.grammar import parse
+from cpc_abi.grammar import parse
 
 from ..common.unit import CORRECT_TUPLE_ENCODINGS
 

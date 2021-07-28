@@ -9,7 +9,7 @@ from setuptools import (
 setup(
     name='cpc-abi',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='1.3.2',
+    version='1.3.3',
     description="""CPChain ABI Utils""",
     long_description_content_type="text/markdown",
     long_description_markdown_filename='README.md',
@@ -29,12 +29,12 @@ setup(
         ],
     },
     setup_requires=['setuptools-markdown'],
-    py_modules=['eth_abi'],
+    py_modules=['cpc_abi'],
     license="MIT",
     zip_safe=False,
     keywords='ethereum',
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={'eth_abi': ['py.typed']},
+    package_data={'cpc_abi': ['py.typed']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
